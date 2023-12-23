@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <p>Fill in your Details</p>
+    <br>
+    <form action="mailto:jimohabdulmuheezolakunle@gmail.com" method="post" enctype="text/plain">
+        <label for="">NAME:</label>
+        <input class="input" type="text" name="yourname" placeholder="NAME" style="width: 350px; height: 55px;">
+        <br>
+        <br>
+        <br>
+        <label for="">EMAIL:</label>
+        <input class="input" type="text" name="youremail" placeholder="Your E-mail Address" style="width: 350px; height: 55px;">
+        <br>
+        <br>
+        <label for="">Phone:</label>
+        <input class="input" type="text" name="yourphone" placeholder="Your Phone Number" style="width: 350px; height: 55px;">
+        <br>
+        <br>
+        <label for="gender">Select your gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+        <label for="education">Select your education level:</label>
+    <select id="education" name="education">
+        <option value="high-school">High School</option>
+        <option value="college">College</option>
+        <option value="bachelor">Bachelor's Degree</option>
+        <option value="master">Master's Degree</option>
+        <option value="phd">Ph.D.</option>
+        <option value="other">Other</option>
+    </select>
+    <br>
+    <br>
+    <label for="country">Select your country:</label>
+    <select id="country" name="country">
+        <option value="afghanistan">Nigeria</option>
+        <option value="albania">Albania</option>
+        <!-- Add more countries as needed -->
+        <option value="zimbabwe">Zimbabwe</option>
+    </select>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <label for="school">Select School:</label>
+        <select id="school" name="school">
+            <option value="business">Business School</option>
+            <option value="engineering">School of Engineering</option>
+            <option value="sciences">School of Sciences</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+        <label for="howDidYouHear">How did you hear about us?</label>
+        <select id="howDidYouHear" name="howDidYouHear">
+            <option value="socialMedia">Social Media</option>
+            <option value="friend">Friend/Family</option>
+            <option value="searchEngine">Search Engine</option>
+            <option value="other">Other</option>
+            <br>
+            <br>
+            
+        </select>
+
+
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+        <label for="discountCode">Discount Code:</label>
+        <input type="text" id="discountCode" name="discountCode" placeholder="Enter code here">
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+        <br><br>
+        <center>
+            <div class="button-2">
+              <input type="submit" name="" value="Submit">
+            </div>
+         </center>
+    </form>
+    
+</body>
+</html>
